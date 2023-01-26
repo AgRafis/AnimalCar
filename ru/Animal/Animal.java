@@ -4,5 +4,9 @@ package ru.Animal;
 //в консоль строку “Кошка пьёт воду”. Создайте объект и задайте кошке имя, а затем
 //вызовите метод drinkMilk()
 public class Animal {
+    String nickname;
 
+    public Animal(String nickname) {
+        this.nickname = nickname;
+    }
 }
